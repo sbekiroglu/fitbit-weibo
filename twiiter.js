@@ -1,6 +1,6 @@
-var sys=require('sys');
-var Oauth=require('oauth').OAuth;
 
+var sys = require('sys');
+var OAuth= require('oauth').OAuth;
 oa = new OAuth("https://twitter.com/oauth/request_token",
                  "https://twitter.com/oauth/access_token",
                  consumer_key, consumer_secret,
