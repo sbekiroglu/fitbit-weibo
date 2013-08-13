@@ -35,6 +35,6 @@ http.createServer(function(request,response){
         'Content-Type':'text/html'
     });
     response.end('hello fitbit');
-}).listen(8124);
+}).listen(7788);
 
-console.log('Server running at http://127.0.0.1:8124');
+console.log('Server running at http://127.0.0.1:7788');
